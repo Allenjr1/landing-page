@@ -1,0 +1,94 @@
+/* general styles */
+html {
+    background-color: black;    
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+body {    
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* header styles*/
+
+header, footer {
+    background-color: #1F2937;
+}
+
+header {
+    display: flex;    
+    align-items: center;
+    justify-content: space-around;
+    color: white;    
+}
+
+.section.one, header {
+    padding: 20px;
+}
+
+.logo > a {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    display: flex;
+    gap: 16px;
+}
+
+
+
+/* section one styles */
+
+.section.one {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FAF8;    
+}
+
+.section.one > div {
+    width: 40%;
+}
+
+.section.one > div > h1 {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.section.one > div > p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.section.one > div > button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 5px;
+    padding: 5px 25px;
+}
+
+.section.one > div >img {
+    border-radius: 8px;
+}
+
+.section.one > div > figcaption{
+    font-size: 10px;
+}
+
+/* section two styles */
+
+/* section three styles */
+
+/* section four styles */
