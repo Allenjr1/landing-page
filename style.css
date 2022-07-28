@@ -1,6 +1,6 @@
 /* general styles */
 html {
-    background-color: black;    
+    /* background-color: black;     */
 }
 
 li {
@@ -16,7 +16,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    padding: 0 5%;
+    /* padding: 0 5%; */
     
 }
 
@@ -98,21 +98,103 @@ header {
 /* section two styles */
 
 .section.two {
-    background-color: #F9FAF8;
     display: flex;
+    flex-direction: column;
+    background-color: #F9FAF8;
+    text-align: center;
+}
+
+
+
+.product-container {    
+    display: flex;
+    flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     gap: 16px;
     text-align: center;
 }
 
-.section.two > h1 {
-    display: block;
+.product > img {
+    width: 150px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 8px;
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-transition: all 1s ease;            
 }
 
-.section.two > div > img {
-    border: 3px solid #3882F6;
+.product > img:hover {
+    filter: grayscale(0%);
+    filter: gray;
+    -webkit-filter: grayscale(0%);
+    filter: none;
+    transition: 1s ease;
 }
 /* section three styles */
 
+.section.three {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.section.three q {
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+}
+
+.section.three figcaption {
+    text-align: end;
+    font-size: 24px;
+}
+
 /* section four styles */
+
+.section.four {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    gap: 75px;
+    margin: 50px;
+    padding: 35px 75px;
+    line-height: 0;
+    font-size: 18px;
+
+}
+
+.section.four  button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 3px solid #E5E7EB;
+    border-radius: 5px;
+    padding: 5px 25px;
+    /* margin: 25px; */
+}
+
+/* footer styles */
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
